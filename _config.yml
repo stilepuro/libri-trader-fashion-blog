@@ -1,0 +1,80 @@
+# Jekyll Configuration for StilePuro Blog
+
+# Site settings
+title: "StilePuro - Luxury Lifestyle Blog"
+description: "Il blog italiano dedicated al luxury lifestyle, fashion e beauty ispirato a The Blonde Salad"
+author: "StilePuro Team"
+
+# URL settings
+url: "https://stilepuro.github.io"
+baseurl: "/libri-trader-fashion-blog"
+permalink: /:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+
+# Collections
+collections:
+  articles:
+    output: true
+
+# Default Front Matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Feed settings
+feed:
+  collections:
+    - articles
+  path: atom.xml
+  show_drafts: false
+
+# SEO settings
+seo:
+  name: "StilePuro - Luxury Lifestyle Blog"
+  title: "StilePuro - Luxury Lifestyle Blog"
+  description: "Il blog italiano dedicated al luxury lifestyle, fashion e beauty ispirato a The Blonde Salad"
+  url: "https://stilepuro.github.io/libri-trader-fashion-blog"
+  image: "/assets/images/stilepuro-og-image.jpg"
+  author: "StilePuro Team"
+  twitter:
+    username: "@stilepuro_blog"
+  social:
+    name: "StilePuro"
+    links:
+      - https://www.instagram.com/stilepuro
+      - https://www.pinterest.com/stilepuro
+      - https://www.youtube.com/c/stilepuro
+
+# Sitemap settings
+sitemap:
+  exclude:
+    - "/404.html"
+    - "/500.html"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - package.json
+  - node_modules
+  - vendor
+
+# Timezone
+timezone: Europe/Rome
+
+# Language
+lang: it
