@@ -1,125 +1,100 @@
-# StilePuro - Luxury Lifestyle Blog
+# the Blonde Salad
 
-Un blog di lusso italiano dedicato al lifestyle, fashion e beauty, ispirato a "The Blonde Salad".
+Fashion & Lifestyle Blog inspired by The Blonde Salad
 
-## 📖 Descrizione
+## 📖 About
 
-StilePuro è un elegante blog lifestyle che esplora il mondo del luxury fashion, beauty e lifestyle italiano. Il design è ispirato all'estetica raffinata di "The Blonde Salad", con un focus particolare su:
+A clean, mobile-first fashion and lifestyle blog designed to replicate the elegant simplicity of "The Blonde Salad" aesthetic. This minimalist design focuses on high-quality imagery and clean typography.
 
-- **Fashion**: Tendenze, designer, fashion week
-- **Beauty**: Skincare, makeup, trattamenti di lusso  
-- **Lifestyle**: Viaggi, ristoranti, cultura del lusso
+## 🎨 Design Features
 
-## 🎨 Caratteristiche
+### Visual Design
+- **Clean Layout**: Mobile-first design with single-column layout
+- **Color Palette**: 
+  - Primary: White background (#FFFFFF)
+  - Text: Black titles (#000000)
+  - Meta: Gray metadata (#666666)
+  - Accent: Pink neon elements (#FF3399)
+- **Typography**: Inter font family for modern, clean readability
+- **Logo**: Custom "the Blonde Salad" with neon glow effect
 
-### Design
-- **Design System**: Palette oro e cremisi per un'estetica luxury
-- **Tipografia**: Playfair Display (serif) + Work Sans (sans-serif)
-- **Layout**: Responsive, mobile-first
-- **Componenti**: 79+ componenti CSS personalizzati
+### Layout Structure
+- **Sticky Header**: Clean navigation with search and menu icons
+- **Article Feed**: Vertical list of articles with full-width images
+- **Floating Action Buttons**: Side-positioned utility buttons
+- **Responsive Design**: Optimized for mobile, scales to desktop
 
-### Funzionalità
-- **Navigazione**: Menu responsive con hamburger mobile
-- **Filtri Articoli**: Filtri dinamici per categoria (Fashion, Beauty, Lifestyle)
-- **Newsletter**: Form di iscrizione con validazione email
-- **Animazioni**: Scroll animations e hover effects
-- **SEO**: Meta tags ottimizzati e schema markup
-- **Performance**: Lazy loading immagini e ottimizzazioni
+### Key Features
+- **Neon Logo Effect**: Gradient text with glow effect
+- **Full-Width Images**: High-quality images as article heroes
+- **Minimal Metadata**: Clean category and date display
+- **Hover Animations**: Subtle interactive feedback
+- **Smooth Scrolling**: Enhanced user experience
 
-### Tecnologie
-- **HTML5**: Semantic markup e accessibility
-- **CSS3**: Custom properties, Flexbox, Grid
-- **JavaScript ES6+**: Modern vanilla JS, no frameworks
-- **Jekyll**: Static site generator per GitHub Pages
+## 🚀 Deployment
 
-## 🚀 Deploy
+**Live Site**: https://stilepuro.github.io/libri-trader-fashion-blog/
 
-Il sito è automaticamente deployato su **GitHub Pages**:
-**URL: https://stilepuro.github.io/libri-trader-fashion-blog/**
-
-### Repository
+### Repository Details
 - **Repository**: `stilepuro/libri-trader-fashion-blog`
 - **Branch**: `main`
-- **Build**: Automatic via GitHub Actions
+- **Platform**: GitHub Pages
 
 ## 📱 Responsive Design
 
-Il sito è completamente responsive e ottimizzato per:
-- **Desktop**: 1400px+ (layout principale)
-- **Tablet**: 768px - 1199px (layout adattivo)
-- **Mobile**: < 768px (hamburger menu, layout stacked)
+The site is optimized for:
+- **Mobile**: 390px width (primary design)
+- **Tablet**: 768px width 
+- **Desktop**: 1024px+ width
 
-## 🎯 SEO & Performance
+## 🛠 Technologies
 
-### SEO Features
-- Meta descriptions e keywords
-- Open Graph tags
-- Twitter Card markup
-- Structured data (JSON-LD)
-- Canonical URLs
-- XML Sitemap
+- **HTML5**: Semantic markup
+- **CSS3**: Modern styling with custom properties
+- **JavaScript**: Vanilla ES6+ for interactivity
+- **Google Fonts**: Inter + Sacramento fonts
+- **Font Awesome**: Icon library
 
-### Performance
-- Lazy loading immagini
-- CSS e JS minificati
-- Font preloading
-- Compressione immagini
-- Critical CSS inline
+## 📊 Content Structure
 
-## 🛠 Sviluppo Locale
+### Articles Include
+1. **Summer 2025 Fashion**: Boho Maxi Dress trends
+2. **Cher & Dionne Barbies**: Clueless 30th Anniversary
+3. **Luxury Bags**: Birkin investment analysis
+4. **Paris Fashion Week**: SS25 minimalist trends
+5. **Beauty Trends**: Glazed donut skin viral trend
+6. **Luxury Travel**: Exclusive hotels for billionaires
+7. **Street Style**: Milan Fashion Week coverage
+8. **Investment Watches**: Vintage Rolex value analysis
 
-```bash
-# Clone repository
-git clone https://github.com/stilepuro/libri-trader-fashion-blog.git
-cd libri-trader-fashion-blog
+## 🎯 Key Components
 
-# Installa Jekyll (se necessario)
-gem install jekyll bundler
+### Header
+- Sticky positioning
+- Logo with neon effect
+- Search and menu icons
 
-# Avvia server di sviluppo
-bundle exec jekyll serve
+### Articles
+- Full-width images
+- Bold titles
+- Category and date metadata
+- Separator lines
 
-# Build per produzione
-bundle exec jekyll build
-```
+### Floating Buttons
+- Random article selector
+- Share/copy link functionality
 
-## 📁 Struttura File
+## 📱 User Experience
 
-```
-/
-├── index.html          # Homepage principale
-├── styles.css          # CSS principale (890 linee)
-├── script.js           # JavaScript (604 linee)
-├── _config.yml         # Configurazione Jekyll
-├── README.md           # Questo file
-└── assets/             # Immagini e risorse
-```
+- **Smooth Animations**: Fade-in effects for content loading
+- **Interactive Feedback**: Hover states and click responses
+- **Accessibility**: Keyboard navigation and focus management
+- **Performance**: Lazy loading for optimal speed
 
-## 🎨 Brand Colors
+## 📄 License
 
-```css
-:root {
-  --primary-gold: #B8967D;
-  --primary-gold-dark: #8B7355;
-  --primary-gold-light: #D4B8A4;
-  --accent-gold: #F4E4BC;
-  --cream: #FAF9F6;
-  --warm-white: #FEFDFB;
-  --charcoal: #2C2C2C;
-}
-```
-
-## 📱 Social Media
-
-Seguici sui nostri social:
-- **Instagram**: @stilepuro_blog
-- **Pinterest**: @stilepuro
-- **YouTube**: StilePuro Channel
-
-## 📄 Licenza
-
-© 2025 StilePuro. Tutti i diritti riservati.
+© 2025 the Blonde Salad Blog. All rights reserved.
 
 ---
 
-*Creato con ❤️ per il luxury lifestyle italiano*
+*Created with ✨ for luxury fashion & lifestyle content*

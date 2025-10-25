@@ -1,9 +1,9 @@
-# Jekyll Configuration for StilePuro Blog
+# Jekyll Configuration for the Blonde Salad Blog
 
 # Site settings
-title: "StilePuro - Luxury Lifestyle Blog"
-description: "Il blog italiano dedicated al luxury lifestyle, fashion e beauty ispirato a The Blonde Salad"
-author: "StilePuro Team"
+title: "the Blonde Salad"
+description: "Fashion & Lifestyle Blog inspired by The Blonde Salad"
+author: "the Blonde Salad Team"
 
 # URL settings
 url: "https://stilepuro.github.io"
@@ -45,20 +45,20 @@ feed:
 
 # SEO settings
 seo:
-  name: "StilePuro - Luxury Lifestyle Blog"
-  title: "StilePuro - Luxury Lifestyle Blog"
-  description: "Il blog italiano dedicated al luxury lifestyle, fashion e beauty ispirato a The Blonde Salad"
+  name: "the Blonde Salad"
+  title: "the Blonde Salad"
+  description: "Fashion & Lifestyle Blog inspired by The Blonde Salad"
   url: "https://stilepuro.github.io/libri-trader-fashion-blog"
-  image: "/assets/images/stilepuro-og-image.jpg"
-  author: "StilePuro Team"
+  image: "/assets/images/blonde-salad-og-image.jpg"
+  author: "the Blonde Salad Team"
   twitter:
-    username: "@stilepuro_blog"
+    username: "@theblondesalad"
   social:
-    name: "StilePuro"
+    name: "the Blonde Salad"
     links:
-      - https://www.instagram.com/stilepuro
-      - https://www.pinterest.com/stilepuro
-      - https://www.youtube.com/c/stilepuro
+      - https://www.instagram.com/theblondesalad
+      - https://www.pinterest.com/theblondesalad
+      - https://www.youtube.com/c/theblondesalad
 
 # Sitemap settings
 sitemap:
@@ -74,7 +74,7 @@ exclude:
   - vendor
 
 # Timezone
-timezone: Europe/Rome
+timezone: UTC
 
 # Language
-lang: it
+lang: en
